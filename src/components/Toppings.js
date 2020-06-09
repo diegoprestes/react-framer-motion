@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 import {
   buttonVariants,
   containerVariants,
-  nextVariants,
   listItemVariants,
 } from "../utils/animatons";
 
@@ -18,6 +17,7 @@ const Toppings = ({ addTopping, pizza }) => {
       variants={containerVariants}
       initial="initial"
       animate="animate"
+      exit="exit"
     >
       
       <h3>Step 2: Choose Toppings</h3>
